@@ -11,7 +11,7 @@
 }
 
 .calculator {
-  border: 2px solid green;
+  border: 2px solid rgb(85, 87, 85);
   padding: 10px;
 }
 
@@ -20,4 +20,12 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
+}
+
+[data-operator] {
+  color: purple;
+}
+
+[data-number] {
+  color: gold;
 }
